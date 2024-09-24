@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+nav {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: darkblue; /* Set navigation text color to dark blue */
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+h1 {
+    color: darkblue; /* Set navigation text color to dark blue */ /* Set h1 color to dark sky blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    color: #FFA500; /* Set h2 and h3 colors to light orange */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007BFF; /* Keep this color as is for links */
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    video {
+        width: 100%;
+    }
+}
